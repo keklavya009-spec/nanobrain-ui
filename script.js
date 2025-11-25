@@ -1,3 +1,5 @@
+const API_URL = "https://nanobrain.onrender.com";
+
 async function sendMsg(){
   const m = document.getElementById("msg").value;
   const res = await fetch("http://localhost:8080/api/chat", {
